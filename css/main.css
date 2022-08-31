@@ -2,8 +2,7 @@
 // css variables
 // ==================================== */
 
-:root {
-}
+
 
 /* ====================================
 // reset rules
@@ -16,6 +15,7 @@
 }
 
 html {
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 16px;
 }
 
@@ -23,13 +23,78 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
+  width: 320px;
+  margin: auto;
   font-size: 1rem;
   line-height: 1.5rem;
+  text-align: center;
+}
+
+/* header */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px 70px;
+}
+
+.intro {
+  padding: 30px;
+}
+
+.recipe {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px; 
+  background: red;
+  width: 150px;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 24px;
+  line-height: 1.2;
+  padding: 15px 0px;
+}
+
+h3 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  margin: 0px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 0px;
+}
+
+/* main */
+
+main {
+  background-color: rgba(232, 232, 227, 0.858);
+  padding: 30px 15px;
+}
+
+h2 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: left;
+  padding: 15px 0px;
 }
 
 a {
   color: inherit;
+  text-decoration: underline 1px;
 }
 
 img,
